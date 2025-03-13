@@ -13,7 +13,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Field'] = ('Box'),
         ['Mode'] = ('Automatic'), --[[ Automatic, Target ]]
                                                                                                          --[[ Must have Automated enabled to use these (prediction formula for offbrands) ]]
-        ['Prediction'] = { ['Enabled'] = false, ['Ground'] = 0.135, ['Air'] = 0.135, ['Automated'] = (false), ['Stabilize'] = 4.9, ['YStabilize'] = { ['Enabled'] = true, ['Value'] = 2 } },
+        ['Prediction'] = { ['Enabled'] = true, ['Ground'] = 0.135, ['Air'] = 0.135, ['Automated'] = (false), ['Stabilize'] = 4.9, ['YStabilize'] = { ['Enabled'] = true, ['Value'] = 2 } },
                                                           --[[ Basic, Advanced ]]
         ['Point'] = ('Nearest Point'), ['Scale'] = (0.2), ['Type'] = ('Basic'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
         ['Parts'] = {'Head'} --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
@@ -25,7 +25,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Bezier'] = (true), --[[ -- ]]
         ['Sticky'] = (true), --[[ Single Target ]]
 
-        ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.01899), ['Air'] = (0.02002) },
+        ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.055), ['Air'] = (0.088) },
 
         ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.11), ['Air'] = (0.11) },
                                                             --[[ Basic, Advanced ]]
@@ -39,10 +39,10 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         
     ["TriggerBot"] = {
         ['Enabled'] = (true),
-        ['Toggle'] = ('V'),
+        ['Toggle'] = ('X'),
         ['Input'] = ('Keyboard'), --[[ Mouse, Keyboard ]]
         ['Field'] = ('Cursor'), --[[ Cursor, Magnitude ]]
-        ['Type'] = ('Hold'),  --[[ Toggle, Hold ]]
+        ['Type'] = ('Toggle'),  --[[ Toggle, Hold ]]
     
         ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.125), ['Air'] = (0.125), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
     
@@ -52,7 +52,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     },
 
     ["Physics"] = {
-        ['Walking'] = { ['Enabled'] = (false), ['Toggle'] = ('V'), ['Amount'] = (5) }, e
+        ['Walking'] = { ['Enabled'] = (true), ['Toggle'] = ('V'), ['Amount'] = (5) }, 
         ['Falling'] = { ['Enabled'] = (true) }, --[[ Anti Fall ]]
         ['Jumping'] = { ['Enabled'] = (true) }, --[[ No Jump Cooldown ]]
         ['Velocity'] = { ['Always On'] = (false), ['Magnitude'] = 150 }
@@ -89,7 +89,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     ["Fields"] = {
         ['AimAssistField'] = { ['Size'] = (500) },
         ['SilentAimField'] = { ['Size'] = (100) },
-        ['SilentAimBoxField'] = { ['Visible'] = (true), ['Sync'] = (false), ['Width'] = (2), ['Height'] = (3) }
+        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (7), ['Height'] = (7) }
     },
 }
 
