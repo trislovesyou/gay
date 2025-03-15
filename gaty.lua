@@ -25,7 +25,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Bezier'] = (true), --[[ -- ]]
         ['Sticky'] = (true), --[[ Single Target ]]
 
-        ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.0083), ['Air'] = (0.0081) },
+        ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.0101), ['Air'] = (0.0100) },
 
         ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.11), ['Air'] = (0.11) },
                                                             --[[ Basic, Advanced ]]
@@ -42,7 +42,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Toggle'] = ('V'),
         ['Input'] = ('Keyboard'), --[[ Mouse, Keyboard ]]
         ['Field'] = ('Cursor'), --[[ Cursor, Magnitude ]]
-        ['Type'] = ('Toggle'),  --[[ Toggle, Hold ]]
+        ['Type'] = ('Hold'),  --[[ Toggle, Hold ]]
         
         ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.125), ['Air'] = (0.125), ['Threshold'] = (25) }, --[[ Only Works With Magnitude ]]
     
