@@ -25,9 +25,9 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Bezier'] = (true), --[[ -- ]]
         ['Sticky'] = (true), --[[ Single Target ]]
 
-        ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.00920), ['Air'] = (0.00900) },
+        ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.01120), ['Air'] = (0.01100) },
 
-        ['Prediction'] = { ['false'] = (false), ['Ground'] = (0.11), ['Air'] = (0.11) },
+        ['Prediction'] = { ['false'] = (true), ['Ground'] = (0.119), ['Air'] = (0.119) },
                                                             --[[ Basic, Advanced ]]
         ['Point'] = ('Default'), ['Scale'] = (0.2), ['Type'] = ('Basic'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
         ['Parts'] = {'Head'}, --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
