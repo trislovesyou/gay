@@ -13,9 +13,9 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Field'] = ('Box'), --[[ Box, Circle ]]
         ['Mode'] = ('Automatic'), --[[ Automatic, Target ]]
                                                                                                                  --[[ Must have Automated enabled to use these (prediction formula for offbrands) ]]
-        ['Prediction'] = { ['false'] = (true), ['Ground'] = (0.119), ['Air'] = (0.119), ['Automated'] = (false), ['Stabilize'] = (4.8), ['YStabilize'] = { ['Enabled'] = (false), ['Value'] = (2) } },
+        ['Prediction'] = { ['false'] = (true), ['Ground'] = (0.14112), ['Air'] = (0.14112), ['Automated'] = (false), ['Stabilize'] = (4.8), ['YStabilize'] = { ['Enabled'] = (false), ['Value'] = (2) } },
                                                           --[[ Basic, Advanced ]]
-        ['Point'] = ('Nearest Point'), ['Scale'] = (0.2), ['Type'] = ('Advanced'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
+        ['Point'] = ('Nearest Point'), ['Scale'] = (0.3), ['Type'] = ('Advanced'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
         ['Parts'] = {'Head'} --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
     },
     
@@ -62,9 +62,9 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
 
     ["Modifications"] = {   --[[ Specific To Da Hood Only (NO OFFBRANDS) ]]                                     
         ['Cooldown Reduction'] = { ['Enabled'] = (false), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.35), ['[Revolver]'] = (0.13) } },                                                                                                                                                                                       
-        ['Client Redirection'] = { ['Enabled'] = (false) }, 
+        ['Client Redirection'] = { ['Enabled'] = (true) }, 
         ['Spread Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (.52), ['[TacticalShotgun]'] = (.52), ['[Shotgun]'] = (0.8), ['[Drum-Shotgun]'] = (1) }, ['Randomizer'] = { ['Enabled'] = (false), ['Value'] = math.random(0.1, 0.4) } },
-        ['Delay Reduction'] = { ['Enabled'] = (false), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.0095), ['[Revolver]'] = (0.0055) } }, 
+        ['Delay Reduction'] = { ['Enabled'] = (true), ['Weapon'] = { ['[Double-Barrel SG]'] = (0.0095), ['[Revolver]'] = (0.0055) } }, 
         ['Double Tap'] = { ['Enabled'] = (true), ['Toggle'] = ('E'), ['Weapon'] = { ('[Silencer]'), ('[Revolver]') } }, --[[ Pistols Only ]]
         ['Beam Color'] = { ['Enabled'] = (false), ['Color'] = (Color3.new(0.560784, 0.894117, 0.901960)) },
         --[[
@@ -90,7 +90,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['AimAssistField'] = { ['Size'] = (500) },
         ['SilentAimField'] = { ['Size'] = (110) },
         ['TriggerBotField'] = { ['Size'] = (4.5) }, --[[ For offbrands ]]
-        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (3.3), ['Height'] = (3) }
+        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (3.5), ['Height'] = (3) }
     },
 }
 
