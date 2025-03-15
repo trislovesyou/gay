@@ -25,7 +25,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Bezier'] = (true), --[[ -- ]]
         ['Sticky'] = (true), --[[ Single Target ]]
 
-        ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.01123), ['Air'] = (0.01002) },
+        ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.01023), ['Air'] = (0.00902) },
 
         ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.11), ['Air'] = (0.11) },
                                                             --[[ Basic, Advanced ]]
@@ -53,7 +53,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
 
     ["Physics"] = {
         ['Walking'] = { ['Enabled'] = (true), ['Toggle'] = ('L'), ['Amount'] = (5) }, 
-        ['Falling'] = { ['Enabled'] = (false) }, --[[ Anti Fall ]]
+        ['Falling'] = { ['Enabled'] = (true) }, --[[ Anti Fall ]]
         ['Jumping'] = { ['Enabled'] = (false) }, --[[ No Jump Cooldown ]]
         ['Velocity'] = { ['Always On'] = (false), ['Magnitude'] = 150 }
     },  
