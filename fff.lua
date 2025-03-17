@@ -1,10 +1,10 @@
 shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​u​t​f​i​t​D​i​s​p​a​t​c​h​e​s​I​X​P​2"] = {
     ["Main"] = {
-        ['Loader'] = { ['Key'] = ('ewjKL5ERh0vLAcW554ADB45NJUYQX9HX') },
+        ['Loader'] = { ['Key'] = ('K44LKEwuPrPVZWrERWlvbrYxOmjOKcuC') },
     },
     
     ["Universal"] = {
-        ['Indicators'] = { ['Enabled'] = (true) },
+        ['Indicators'] = { ['Enabled'] = (false) },
     },
     
     ["SilentAim"] = {
