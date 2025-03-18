@@ -89,7 +89,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     ["Fields"] = {
         ['AimAssistField'] = { ['Size'] = (500) },
         ['SilentAimField'] = { ['Size'] = (110) },
-        ['TriggerBotField'] = { ['Size'] = (3.5) }, --[[ For offbrands ]]
+        ['TriggerBotField'] = { ['Size'] = (4) }, --[[ For offbrands ]]
         ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (true), ['Width'] = (3), ['Height'] = (3.5) }
     },
 }
