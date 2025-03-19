@@ -25,7 +25,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Bezier'] = (true), --[[ -- ]]
         ['Sticky'] = (true), --[[ Single Target ]]
 
-        ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.00900), ['Air'] = (0.00890) },
+        ['Smoothing'] = { ['Enabled'] = (true), ['Ground'] = (0.00960), ['Air'] = (0.00940) },
 
         ['Prediction'] = { ['Enabled'] = (false), ['Ground'] = (0.15), ['Air'] = (0.15) },
                                                             --[[ Basic, Advanced ]]
